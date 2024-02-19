@@ -12,17 +12,17 @@ default-features = false
 version = "~2.33.3"
 
 [dependencies.err-derive]
-version = "0.3"
+version = "*"
 
 [dependencies.itertools]
-version = "0.10"
+version = "*"
 
 [dependencies.log]
 features = ["max_level_trace", "release_max_level_info"]
-version = "0.4"
+version = "*"
 
 [dependencies.quote]
-version = "1"
+version = "*"
 
 [dependencies.regex-syntax]
 default-features = false
@@ -30,18 +30,18 @@ version = "0.6"
 
 [dependencies.reqwest]
 features = ["blocking", "deflate", "gzip", "json"]
-version = "0.11"
+version = "*"
 
 [dependencies.serde]
 features = ["derive"]
-version = "1"
+version = "*"
 
 [dependencies.serde_json]
 features = ["raw_value"]
-version = "1"
+version = "*"
 
 [dependencies.simplelog]
-version = "0.10"
+version = "*"
 
 [dependencies.url]
 version = "2"
